@@ -1,0 +1,16 @@
+body{
+    background-color: #333;
+    color: aliceblue;
+}
+
+a{
+    color: aqua;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: blueviolet;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: #333;
+    color: whitesmoke;
+}
+ 
+a {
+    color: aliceblue; /*This is how we give color to a specific html element*/
+}
+
+a:visited{ /*We can also define the state of the element*/
+    color: rebeccapurple;
+}
+
+a:hover, a:active{
+    color: #eee;
+}

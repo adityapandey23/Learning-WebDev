@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Tables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Learning Tables</h1>
+    <hr><br>
+    <table>
+
+        <caption>Time Table</caption>
+
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+                <th id="Sunday">Sunday</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <th scope="row">Slot-1</th> 
+                <td>OOPS</td>
+                <td>DSD</td>
+                <td>STS</td>
+                <td>DSD</td>
+                <td>Analog</td>
+                <td rowspan="6" colspan="2">Holiday</td>
+            </tr>
+    
+            <tr>
+                <th scope="row">Slot-2</th> 
+                <td>DSD</td>
+                <td>EMT</td>
+                <td>OOPS</td>
+                <td>EMT</td>
+                <td>STS</td>
+            </tr>
+    
+            <tr>
+                <th scope="row">Slot-3</th> 
+                <td>EMT</td>
+                <td>Analog</td>
+                <td>Maths</td>
+                <td>Analog</td>
+                <td>Analog</td>
+            </tr>
+    
+            <tr>
+                <th scope="row">Slot-4</th> 
+                <td>Maths</td>
+                <td>STS</td>
+                <td>OOPS</td>
+                <td>S&S</td>
+                <td>Maths</td>
+            </tr>
+    
+            <tr>
+                <th scope="row">Slot-5</th> 
+                <td>OOPS</td>
+                <td>DSD</td>
+                <td>S&S</td>
+                <td>Eng</td>
+            </tr>
+    
+            <tr>
+                <th id="Slot-6">Slot-6</th>
+                <td headers="Sunday Slot-6">S&S</td>
+                <td headers="Sunday Slot-6">Maths</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="8">This is what I do everyday :)</td>
+            </tr>
+        </tfoot>
+
+        
+    </table>
+</body>
+</html>
