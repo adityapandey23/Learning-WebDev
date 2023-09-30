@@ -46,3 +46,32 @@ const student = {
 console.log(student.name);
 console.log(student.age);
 console.log(student.cgpa);
+
+
+
+
+/**
+ * More About accessing Objects
+ * 1- Dot Notation
+ * 2- Bracket Notation
+ * 3- Square Brackets with String
+*/
+
+let person = {
+    firstName: "Aditya",
+    lastName: "Pandey",
+    age:20
+}
+
+// Dot Notation
+//  -> object.property_name
+console.log(person.firstName);
+
+// Bracket Notation (When property name is stored in a variable)
+//  -> object[variable_name]
+let temp = "lastName";
+console.log(person[temp]);
+
+// Square Brackets with string
+//  -> object["Property_name"]
+console.log(person["age"]);
